@@ -8,9 +8,7 @@
         <artifactId>container_and_library_repositories</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
-
-    <groupId>com.ebukaanazodo</groupId>
-    <artifactId>redis</artifactId>
+    <artifactId>elk</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

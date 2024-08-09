@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>io.zeta</groupId>
     <artifactId>container_and_library_repositories</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -20,6 +20,9 @@
         <module>mysql-8</module>
         <module>keycloak</module>
         <module>redis</module>
+        <module>elk</module>
+        <module>terraform</module>
+        <module>helpful-scripts-tools</module>
     </modules>
 
 </project>

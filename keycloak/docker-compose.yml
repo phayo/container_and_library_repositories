@@ -1,5 +1,4 @@
 version: '3'
-# from: https://github.com/keycloak/keycloak-containers/blob/main/docker-compose-examples/keycloak-postgres.yml
 
 volumes:
   postgres_data:

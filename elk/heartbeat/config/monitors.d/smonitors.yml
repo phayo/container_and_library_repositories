@@ -1,0 +1,220 @@
+- max_redirects: 0
+  fields_under_root: true
+  type: "http"
+  name: "BID-00048 - Waternet - PRD"
+  urls:
+    - "https://integrate.go.connext.com/waternet/prd/allsolutions-balance-leave-hours/cgo_allsolutions-balance-leave-hours/healthcheck"
+  ssl:
+    verification_mode: "none"
+  schedule: "@every 15m"
+  fields:
+    environment: "prod"
+    endpoint: "BID-00048_WATERNET_PRD"
+  processors:
+    - add_tags:
+        tags:
+          - "Waternet"
+          - "PRD"
+          - "BID-00048"
+    - add_observer_metadata:
+        cache.ttl: "5m"
+        geo:
+          name: "PROD"
+- max_redirects: 0
+  fields_under_root: true
+  type: "http"
+  name: "BID-00103 - Rivas - PRD"
+  urls:
+    - "https://integrate.go.connext.com/rivas/prd/king-packing-slips/cgo_king-packing-slips/healthcheck"
+  ssl:
+    verification_mode: "none"
+  schedule: "@every 15m"
+  fields:
+    environment: "prod"
+    endpoint: "BID-00103_Rivas_PRD"
+  processors:
+    - add_tags:
+        tags:
+          - "Rivas"
+          - "PRD"
+          - "BID-00103"
+    - add_observer_metadata:
+        cache.ttl: "5m"
+        geo:
+          name: "PROD"
+- max_redirects: 0
+  fields_under_root: true
+  type: "http"
+  name: "BID-00121 - Carmel - PRD"
+  urls:
+    - "https://integrate.go.connext.com/carmel/prd/proactis-ok2book/proactis-ok2book/healthcheck"
+  ssl:
+    verification_mode: "none"
+  schedule: "@every 15m"
+  fields:
+    environment: "prod"
+    endpoint: "BID-00121_Carmel_PRD"
+  processors:
+    - add_tags:
+        tags:
+          - "Carmel"
+          - "PRD"
+          - "BID-00121"
+    - add_observer_metadata:
+        cache.ttl: "5m"
+        geo:
+          name: "PROD"
+- max_redirects: 0
+  fields_under_root: true
+  type: "http"
+  name: "BID-00102 - King Orders - PRD"
+  urls:
+    - "https://integrate.go.connext.com/rivas/prd/king-orders/cgo_king-orders/healthcheck"
+  ssl:
+    verification_mode: "none"
+  schedule: "@every 15m"
+  fields:
+    environment: "prod"
+    endpoint: "BID-00102_King_Orders_PRD"
+  processors:
+    - add_tags:
+        tags:
+          - "King Orders"
+          - "PRD"
+          - "BID-00102"
+    - add_observer_metadata:
+        cache.ttl: "5m"
+        geo:
+          name: "PROD"
+- max_redirects: 0
+  fields_under_root: true
+  type: "http"
+  name: "BID-00048 - Waternet - SBX"
+  urls:
+    - "https://integrate.go.connext.com/waternet/sbx/allsolutions-balance-leave-hours/cgo_allsolutions-balance-leave-hours/healthcheck"
+  ssl:
+    verification_mode: "none"
+  schedule: "@every 15m"
+  fields:
+    environment: "sbx"
+    endpoint: "BID-00048_WATERNET_SBX"
+  processors:
+    - add_tags:
+        tags:
+          - "Waternet"
+          - "SBX"
+          - "BID-00048"
+    - add_observer_metadata:
+        cache.ttl: "5m"
+        geo:
+          name: "SBX"
+- max_redirects: 0
+  fields_under_root: true
+  type: "http"
+  name: "BID-00103 - Rivas - SBX"
+  urls:
+    - "https://integrate.go.connext.com/rivas/sbx/king-packing-slips/cgo_king-packing-slips/healthcheck"
+  ssl:
+    verification_mode: "none"
+  schedule: "@every 15m"
+  fields:
+    environment: "prod"
+    endpoint: "BID-00103_Rivas_SBX"
+  processors:
+    - add_tags:
+        tags:
+          - "Rivas"
+          - "SBX"
+          - "BID-00103"
+    - add_observer_metadata:
+        cache.ttl: "5m"
+        geo:
+          name: "SBX"
+- max_redirects: 0
+  fields_under_root: true
+  type: "http"
+  name: "BID-00121 - Carmel - SBX"
+  urls:
+    - "https://integrate.go.connext.com/carmel/sbx/proactis-ok2book/proactis-ok2book/healthcheck"
+  ssl:
+    verification_mode: "none"
+  schedule: "@every 15m"
+  fields:
+    environment: "prod"
+    endpoint: "BID-00121_Carmel_SBX"
+  processors:
+    - add_tags:
+        tags:
+          - "Carmel"
+          - "SBX"
+          - "BID-00121"
+    - add_observer_metadata:
+        cache.ttl: "5m"
+        geo:
+          name: "SBX"
+- max_redirects: 0
+  fields_under_root: true
+  type: "http"
+  name: "BID-00102 - King Orders - SBX"
+  urls:
+    - "https://integrate.go.connext.com/rivas/sbx/king-orders/cgo_king-orders/healthcheck"
+  ssl:
+    verification_mode: "none"
+  schedule: "@every 15m"
+  fields:
+    environment: "prod"
+    endpoint: "BID-00102_King_Orders_SBX"
+  processors:
+    - add_tags:
+        tags:
+          - "King Orders"
+          - "SBX"
+          - "BID-00102"
+    - add_observer_metadata:
+        cache.ttl: "5m"
+        geo:
+          name: "PROD"
+- max_redirects: 0
+  fields_under_root: true
+  type: "http"
+  name: "BID-00002 - ZHA - PRD"
+  urls:
+    - "https://integrate.go.connext.com/zha/prd/epic-sync-items/bid00002/readiness"
+  ssl:
+    verification_mode: "none"
+  schedule: "@every 15m"
+  fields:
+    environment: "prod"
+    endpoint: "BID-00002_ZHA_PRD"
+  processors:
+    - add_tags:
+        tags:
+          - "ZHA"
+          - "PROD"
+          - "BID-00002"
+    - add_observer_metadata:
+        cache.ttl: "5m"
+        geo:
+          name: "PROD"
+- max_redirects: 0
+  fields_under_root: true
+  type: "http"
+  name: "BID-00009 - ADRZ - SBX"
+  urls:
+    - "https://integrate.go.connext.com/adrz/sbx/hl7-update-patient-information/readyz"
+  ssl:
+    verification_mode: "none"
+  schedule: "@every 15m"
+  fields:
+    environment: "sbx"
+    endpoint: "BID-00009_ADRZ_SBX"
+  processors:
+    - add_tags:
+        tags:
+          - "sbx"
+          - "adrz"
+          - "hl7-update-patient-information"
+    - add_observer_metadata:
+        cache.ttl: "5m"
+        geo:
+          name: "SBX"

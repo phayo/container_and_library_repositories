@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  activemq:
+    image: apache/activemq-classic:5.18.3
+    container_name: activemq
+    environment:
+      - "TZ=Europe/Amsterdam"
+    volumes:
+      - "./activemq/activemq.xml:/conf/activemq.xml"
+    ports:
+      - "5672:5672"
+      - "61616:61616" # broker (admin:adminactivemq)(amq:amq)
+      - "8161:8161"   # web    http://boot2docker:8161/admin (admin:admin)
