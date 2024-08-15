@@ -18,6 +18,7 @@
         <module>confluent-apache-kafka</module>
         <module>apache-cassandra-db</module>
         <module>mysql-8</module>
+        <module>localstack</module>
         <module>keycloak</module>
         <module>redis</module>
         <module>elk</module>

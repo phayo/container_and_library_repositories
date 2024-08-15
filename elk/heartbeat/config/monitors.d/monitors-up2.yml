@@ -1,0 +1,91 @@
+- max_redirects: 0
+  fields_under_root: true
+  type: "http"
+  name: "BID-00048 - Waternet - PRD"
+  urls:
+  - "https://integrate.go.connext.com/waternet/prd/allsolutions-balance-leave-hours/cgo_allsolutions-balance-leave-hours/healthcheck"
+  ssl:
+    verification_mode: "none"
+  schedule: "@every 15m"
+  fields:
+    environment: "prod"
+    endpoint: "BID-00048_WATERNET_PRD"
+  processors:
+  - add_tags:
+      tags:
+      - "Waternet"
+      - "PRD"
+      - "BID-00048"
+  - add_observer_metadata:
+      cache.ttl: "5m"
+      geo:
+        name: "PROD"
+- max_redirects: 0
+  fields_under_root: true
+  type: "http"
+  name: "BID-00009-ADRZ-SBX"
+  urls:
+  - "https://integrate.go.connext.com/adrz/sbx/hl7-update-patient-information/readyz"
+  ssl:
+    verification_mode: "none"
+  schedule: "@every 15m"
+  fields:
+    environment: "sbx"
+    endpoint: "BID-00009-ADRZ-SBX"
+  processors:
+  - add_tags:
+      tags:
+      - "adrz"
+      - "sbx"
+      - "hl7-update-patient-information"
+      - "BID-00009"
+  - add_observer_metadata:
+      cache.ttl: "5m"
+      geo:
+        name: "SBX"
+- max_redirects: 0
+  fields_under_root: true
+  type: "http"
+  name: "BID-00009-ADRZ-SBX"
+  urls:
+  - "https://integrate.go.connext.com/adrz/sbx/hl7-update-patient-information/readyz"
+  ssl:
+    verification_mode: "none"
+  schedule: "@every 15m"
+  fields:
+    environment: "sbx"
+    endpoint: "BID-00009-ADRZ-SBX"
+  processors:
+  - add_tags:
+      tags:
+      - "adrz"
+      - "sbx"
+      - "hl7-update-patient-information"
+      - "BID-00009"
+  - add_observer_metadata:
+      cache.ttl: "5m"
+      geo:
+        name: "SBX"
+- max_redirects: 0
+  fields_under_root: true
+  type: "http"
+  name: "BID-00009-ADRZ-SBX"
+  urls:
+  - "https://integrate.go.connext.com/adrz/sbx/hl7-update-patient-information/readyz"
+  ssl:
+    verification_mode: "none"
+  schedule: "@every 15m"
+  fields:
+    environment: "sbx"
+    endpoint: "BID-00009-ADRZ-SBX"
+  processors:
+  - add_tags:
+      tags:
+      - "adrz"
+      - "sbx"
+      - "hl7-update-patient-information"
+      - "BID-00009"
+  - add_observer_metadata:
+      cache.ttl: "5m"
+      geo:
+        name: "SBX"

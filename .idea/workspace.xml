@@ -4,41 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10b9c61-af35-4991-b50e-ad38192380ab" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activemq/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elk/heartbeat/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elk/heartbeat/config/heartbeat.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elk/heartbeat/config/monitors.d/monitors.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elk/heartbeat/config/monitors.d/smonitors.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elk/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpful-scripts-tools/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpful-scripts-tools/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpful-scripts-tools/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpful-scripts-tools/self-signed-cert-generate.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localstack/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localstack/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localstack/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localstack/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/learn/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-cassandra-db/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apache-cassandra-db/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confluent-apache-kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/confluent-apache-kafka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keycloak/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/keycloak/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keycloak/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keycloak/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql-8/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mysql-8/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql-8/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mysql-8/pom.xml" afterDir="false" />
+    <list default="true" id="b10b9c61-af35-4991-b50e-ad38192380ab" name="Changes" comment="Add elk">
+      <change afterPath="$PROJECT_DIR$/elk/heartbeat/config/monitors.d/monitors-up2.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localstack/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/localstack/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +28,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -78,23 +49,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "/Users/chukwuebuka/dev/container_and_library_repositories/elk/heartbeat/config/monitors.d"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/chukwuebuka/dev/container_and_library_repositories/elk/heartbeat/config/monitors.d&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/elk/heartbeat/config/monitors.d" />
       <recent name="$PROJECT_DIR$/docker-elk-main" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/elk/heartbeat/config/monitors.d" />
+    </key>
   </component>
-  <component name="RunManager" selected="Docker.elk.heartbeat: Compose Deployment">
+  <component name="RunManager" selected="Docker.localstack.localstack: Compose Deployment">
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings />
@@ -104,19 +78,6 @@
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
       <deployment type="dockerfile">
         <settings />
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="activemq.activemq: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="activemq" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="activemq/docker-compose.yml" />
-        </settings>
       </deployment>
       <method v="2" />
     </configuration>
@@ -168,13 +129,26 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="localstack.localstack: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="localstack" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="localstack/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.localstack.localstack: Compose Deployment" />
         <item itemvalue="Docker.elk.heartbeat: Compose Deployment" />
         <item itemvalue="Docker.heartbeat/heartbeat-compose.yml.heartbeat: Compose Deployment" />
         <item itemvalue="Docker.heartbeat/Dockerfile" />
         <item itemvalue="Docker.elk.elasticsearch: Compose Deployment" />
-        <item itemvalue="Docker.activemq.activemq: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685084319199</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add elk">
+      <created>1723210800268</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723210800268</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,6 +227,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit gitignore" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Add elk" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add elk" />
   </component>
 </project>
