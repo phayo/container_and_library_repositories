@@ -25,6 +25,7 @@
         <module>elk</module>
         <module>terraform</module>
         <module>helpful-scripts-tools</module>
+        <module>enterprise-architecture</module>
     </modules>
 
 </project>

@@ -7,6 +7,8 @@
     <file url="file://$PROJECT_DIR$/confluent-apache-kafka/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elk/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elk/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/enterprise-architecture/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/enterprise-architecture/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/helpful-scripts-tools/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/helpful-scripts-tools/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/keycloak/src/main/java" charset="UTF-8" />
